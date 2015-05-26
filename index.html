@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="jquery.mobile-1.4.5.min.css">
   <script src="jquery-2.1.4.min.js"></script>
   <script src="jquery.mobile-1.4.5.min.js"></script>
-  <script src="http://da189i1jfloii.cloudfront.net/js/kinvey-html5-1.0.4.min.js"></script>
+  <script src="kinvey.js"></script>
   <script src="app.js"></script>
 </head> 
 
@@ -30,10 +30,10 @@
 </div><!-- /page home -->
 
 <!-- Start of second page: #quotespage -->
-<div data-role="page" id="quotespage" data-add-back-btn="true">
+<div data-role="page" id="quotespage">
 
-  <div data-role="header" data-position="fixed">
-    <h3>Random Quotes</h3>  
+  <div data-role="header" data-position="fixed" data-add-back-btn="true">
+      <h3 id="quotesTitle" style="white-space:normal;"></h3>  
   </div><!-- /header -->
 
   <div data-role="content">
